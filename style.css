@@ -1,0 +1,352 @@
+
+.body1{
+    margin: 0;
+    padding: 0;
+    background: #5874E3 no-repeat;
+background: -webkit-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: -moz-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: linear-gradient(to bottom, #5874E3, #45EA7C)no-repeat;
+background-size : cover;
+}
+
+
+.nav {
+    margin:auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    list-style: none;
+
+}
+ .nav li{
+     float: left;
+ }
+
+.nav li a{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+.nav li a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.box{
+    width: 400px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+
+.box-img{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+
+}
+
+.box h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.box ul{
+	margin-left:4%;
+	margin-bottom:20%;
+	bottom:30%;
+	padding:10px;
+}
+
+.box li{
+    display: inline-block;
+    margin: 9px;
+    list-style: none;
+  }
+
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #0e0f0f;
+  }
+  
+  .box-2{
+      font-family: arial;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.4);
+      margin:auto;
+      padding:50px;
+color: white;
+width: 380px;
+margin-bottom: 6%;
+margin-top: 6%;
+  }
+
+
+
+  .box-2 p{
+      font-size: 21px;
+      letter-spacing: 2px;
+  }
+  
+  .box-2 th{
+      font-size: 19px;
+      letter-spacing: 2px;
+	text-align:center;
+  }
+  
+ .box-2 table{
+	 
+	 margin-left: 20%;
+	 
+ }
+  .body-2{
+	 margin: 0;
+    padding: 0;
+    background: #5874E3 no-repeat;
+background: -webkit-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: -moz-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: linear-gradient(to bottom, #5874E3, #45EA7C)no-repeat;
+background-size : cover;
+  }
+ 
+ .nav-2{
+	  margin:auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+ }
+.nav-2 ul{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    list-style: none;
+}
+.nav-2 li{
+	  float: left;
+}
+.nav-2 li a{
+	 display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.nav-2 li a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.boxp2{
+    width: 400px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+	margin-bottom:8%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+
+.boxp2 table{
+	margin-left: 100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boxp2 h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.info-box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+	margin-bottom:15%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+
+@media only screen and (max-width:740px) {
+	.nav ul{
+		width: 100%;
+		 background-color:  rgba(0, 0, 0, 0.4);
+		 position: absolute;
+		 z-index:2;
+		 overflow: hidden;
+		 top:0;
+	}
+	.nav li{
+		display: block;
+		position: relative;
+	float: left;
+	}
+	.box{
+    width:290px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 18%;
+    text-align: center;
+    margin: 18%;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+	}
+	.nav li a{
+		margin:5px;
+	}
+	.body1{
+		width:100px;
+		background: #5874E3 no-repeat;
+background: -webkit-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: -moz-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: linear-gradient(to bottom, #5874E3, #45EA7C)no-repeat;
+background-size : cover;
+margin:0;
+padding: 0;
+	}
+	.box-2{
+		width:200px;
+		margin-left:30px;
+		margin-bottom:15px;
+	}
+	.box-2 li a{
+		right:60px;
+		list-style:none
+		
+	}
+	.box-2 p{
+		letter-spacing:5px;
+	}
+	.box-2 table{
+		margin-left: 2%;
+		
+	.box li{
+    display: inline-block;
+    list-style: none;
+	}
+		
+    .box li a:hover{
+    color: black;
+	display: block;
+  }
+	.body-box{
+    width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+	margin-bottom: 80px;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+	}
+	
+.nav-2 ul{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    list-style: none;
+	position: absolute;
+	z-index:2;
+	top:0;
+	
+}
+.nav-2 li{
+	position:relative;
+}	
+.nav-2 li a{
+	 display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+margin: 5px;
+}
+.nav-2 li a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.body-2{
+	width:100px;
+		background: #5874E3 no-repeat;
+background: -webkit-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: -moz-linear-gradient(top, #5874E3, #45EA7C)no-repeat;
+background: linear-gradient(to bottom, #5874E3, #45EA7C)no-repeat;
+background-size : cover;
+margin:0;
+padding: 0;
+}
+.boxp2{
+    width: 80px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10%;
+    text-align: center;
+    margin: 10px;
+    margin-top: 8%;
+	margin-bottom:8%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
